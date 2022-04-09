@@ -1,5 +1,5 @@
-export { dirname, join } from "https://deno.land/std@0.74.0/path/mod.ts";
-export * as log from "https://deno.land/std@0.74.0/log/mod.ts";
+export { dirname, join } from "https://deno.land/std@0.133.0/path/mod.ts";
+export * as log from "https://deno.land/std@0.133.0/log/mod.ts";
 
 // oak
 export {

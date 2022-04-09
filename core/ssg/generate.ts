@@ -1,5 +1,5 @@
-import * as fs from "https://deno.land/std@0.99.0/fs/mod.ts";
-import * as path from "https://deno.land/std@0.99.0/path/mod.ts";
+import * as fs from "https://deno.land/std@0.133.0/fs/mod.ts";
+import * as path from "https://deno.land/std@0.133.0/path/mod.ts";
 import { genHtml } from "./html.ts";
 import { getComponent, getComponents } from "./components.ts";
 import { getAssets } from "./assets.ts";

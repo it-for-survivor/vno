@@ -1,13 +1,13 @@
 // deno std library
-export * as fs from "https://deno.land/std@0.83.0/fs/mod.ts";
-export * as path from "https://deno.land/std@0.83.0/path/mod.ts";
-export * as colors from "https://deno.land/std@0.83.0/fmt/colors.ts";
-export * as http from "https://deno.land/std@0.83.0/http/mod.ts";
-export { v4 } from "https://deno.land/std@0.88.0/uuid/mod.ts"; //uuid generator
+export * as fs from "https://deno.land/std@0.133.0/fs/mod.ts";
+export * as path from "https://deno.land/std@0.133.0/path/mod.ts";
+export * as colors from "https://deno.land/std@0.133.0/fmt/colors.ts";
+export * as http from "https://deno.land/std@0.133.0/http/mod.ts";
+export { v4 } from "https://deno.land/std@0.133.0/uuid/mod.ts"; //uuid generator
 export {
   assertEquals,
   assertNotEquals,
-} from "https://deno.land/std@0.83.0/testing/asserts.ts"; // testing library
+} from "https://deno.land/std@0.133.0/testing/asserts.ts"; // testing library
 import {
   WebSocketClient,
   WebSocketServer,
@@ -35,5 +35,5 @@ export { compile as scssCompiler } from "https://raw.githubusercontent.com/crewd
 export * as sfcCompiler from "https://denopkg.com/crewdevio/vue-deno-compiler/mod.ts";
 
 //event emitter for live reload
-import { EventEmitter } from "https://deno.land/std@0.93.0/node/events.ts";
+import { EventEmitter } from "https://deno.land/std@0.133.0/node/events.ts";
 export { EventEmitter };

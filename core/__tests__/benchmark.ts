@@ -1,7 +1,7 @@
 import {  //import bench and runBenchmarks from deno URL
   bench,
   runBenchmarks,
-} from "https://deno.land/std@0.83.0/testing/bench.ts";
+} from "https://deno.land/std@0.133.0/testing/bench.ts";
 
 import Factory from "../factory/Factory.ts";
 
